@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatles Trivia</title>
+    <link rel="stylesheet" href="beatlesstyle.css">
+</head>
+<body>
+    <h1>Music Trivia: Test your knowledge!</h1>
+
+        <h2><a href="index.html">Home Page</a></h2> 
+
+        <h3>Answers are case sensitive</h3>
+<hr>
+    <script>
+        
+        let answer = "Pete Best";
+        function guess() {
+            let userGuess = (document.getElementById("guess").value);
+            
+            let report = "Nothing";
+
+            if (userGuess = answer)
+                report = "Correct!";
+            else if (userGuess != answer)
+                report = "Try Again";
+        
+
+            document.getElementById("guessResponse").innerHTML = report;
+        }
+    </script>
+
+    <label for="guess">Who was the Beatles' first drummer?</label>
+    <input type="text" id="guess">
+    <div><span id="guessResponse"></span></div>
+    <button onclick="guess()">Guess</button>
+
+    <hr>
+
+    <script>
+        
+        let answerb = "1964";
+        function guessb() {
+            let userGuessb = (document.getElementById("guessb").value);
+            
+            let report = "Nothing";
+
+            if (userGuessb = answerb)
+                report = "Correct!";
+            else if (userGuessb != answerb)
+                report = "Try Again";
+        
+
+            document.getElementById("guessResponseb").innerHTML = report;
+        }
+    </script>
+
+    <label for="guessb">What year did the Beatles tour America?</label>
+    <input type="text" id="guessb">
+    <div><span id="guessResponseb"></span></div>
+    <button onclick="guessb()">Guess</button>
+
+    <hr>
+
+    <script>
+        
+        let answerc = "Please Please Me";
+        function guessc() {
+            let userGuessc = (document.getElementById("guessc").value);
+            
+            let report = "Nothing";
+
+            if (userGuessc = answerc)
+                report = "Correct!";
+            else if (userGuessc != answerc)
+                report = "Try Again";
+        
+
+            document.getElementById("guessResponsec").innerHTML = report;
+        }
+    </script>
+
+    <label for="guessc">What album popularized the Beatles across Europe?</label>
+    <input type="text" id="guessc">
+    <div><span id="guessResponsec"></span></div>
+    <button onclick="guessc()">Guess</button>
+
+    <hr>
+
+     <script>
+        
+        let answerd = "Let It Be";
+        function guessd() {
+            let userGuessd = (document.getElementById("guessc").value);
+            
+            let report = "Nothing";
+
+            if (userGuessd = answerc)
+                report = "Correct!";
+            else if (userGuessd != answerd)
+                report = "Try Again";
+        
+
+            document.getElementById("guessResponsed").innerHTML = report;
+        }
+    </script>
+
+    <label for="guessd">What was the last Album the Beatles released as a group?</label>
+    <input type="text" id="guessd">
+    <div><span id="guessResponsed"></span></div>
+    <button onclick="guessd()">Guess</button>
+
+    <hr>
+
+     <img src= "thumbsuppaul.jpg" alt="Paul gives you a thumbs up"> </div>
+      
+</body>
+</html>

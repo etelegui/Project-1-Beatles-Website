@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beatles Essentials</title>
+        <style>
+            body {
+            background-color: wheat;
+        }
+
+        .flexbox-table{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;}
+        
+        #Albumtable {
+            border-collapse: collapse;
+            padding: 5px;
+            background-color: orange;
+            flex:50
+        }
+        #beatlespointing {flex:50}
+
+        ul, ol,li {line-height:150%}
+
+        .pagelinks{
+            display:flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+        }
+        #performancelink{background-color: orangered;flex:50}
+        #trivialink{background-color: orangered;flex:50}
+        .box-common{text-align:center; border:5px solid rgb(184, 31, 17)}
+    @media(max-width:500px){.flexbox-container{flex-direction: column;}}
+        </style>
+      
+</head>
+
+<body>
+    <script>
+        //alert("Are you ready to rock???!!!") </script>
+    <header style="font-size: 40px; font-style:oblique; font-family:cursive; color:goldenrod; text-align:center;">The Evolution of the
+        Beatles</header>
+
+        <div class="pagelinks">
+        <div id="performancelink" class="box-common" style="font-family:cursive; color:orangered">
+            <h2><a href="page2.html">The Beatles' Iconic Performances</a></h2>
+            </div>
+        <div id="trivialink" class="box-common" style="font-family:cursive; color:orangered">
+            <h2><a href="quizpage.html">Beatles Trivia: Quiz Yourself!</a></h2>
+            </div>
+        </div>
+
+    <h1 style="color:orange" >1960-1970: The Beatles Period </h1>
+    <hr>
+
+    <div class="flexbox-table">
+    <div id= "Albumtable">
+        <table>
+            <th style="font-size: 25px; padding-bottom:30px"> Albums by Release</th>
+            <tr>
+                <td>Spring 1963</td>
+                <td>Please Please Me</td>
+            </tr>
+            <tr>
+                <td>Fall 1963</td>
+                <td>With The Beatles</td>
+            </tr>
+            <tr>
+                <td>Summer 1964</td>
+                <td>A Hard Day's Night</td>
+            </tr>
+            <tr>
+                <td>Winter 1964</td>
+                <td>Beatles For Sale</td>
+            </tr>
+            <tr>
+                <td>Summer 1965</td>
+                <td>Help!</td>
+            </tr>
+            <tr>
+                <td>Winter 1965</td>
+                <td>Rubber Soul</td>
+            </tr>
+            <tr>
+                <td>Summer 1966</td>
+                <td>Revolver</td>
+            </tr>
+            <tr>
+                <td>Summer 1967</td>
+                <td>Sgt Pepper's Lonely Hearts Club Band</td>
+            </tr>
+            <tr>
+                <td>Fall 1967</td>
+                <td>Magical Mystery Tour</td>
+            </tr>
+            <tr>
+                <td>Fall 1968</td>
+                <td>The Beatles (a.k.a. the White Album)</td>
+            </tr>
+            <tr>
+                <td>Winter 1969</td>
+                <td>Yellow Submarine</td>
+            </tr>
+            <tr>
+                <td>Fall 1969</td>
+                <td>Abbey Road</td>
+            </tr>
+            <tr>
+                <td>Spring 1970</td>
+                <td>Let It Be</td>
+            </tr>
+        </table>
+    </div>
+
+    <img id="beatlespointing" src= "beatlestogether.jpg" alt="Beatles point at you" width="45%"> </div>
+ </div>
+
+    <section>
+        <h2 style="color:orange;font-family:cursive;"> History: key events of each period</h2>
+        <ol>
+            <li><span style="color:red; margin-right: 5px;">1956, 1957, 1958</span>
+                John Lennon, aged 16, forms the Quarrymen; Paul joins, aged 15; George joins, aged 15 </li>
+            <li><span style="color:orangered; margin-right: 5px;">1960</span>
+                Stuart Sutcliffe (bass) joins, name change to the Silver Beatles; Pete Best (drums) joins, name change to <span style="font-style:oblique; color:red">the Beatles </span>, first trip playing in Hamburg </li>
+            <li><span style="color:orange;margin-right: 5px;">1961, 1962</span>
+                Stuart quits, Brian Epstein becomes manager; Pete Best is replaced with Ringo Starr, "Love Me Do" hits UK charts
+            </li>
+            <li><span style="color:goldenrod; margin-right: 5px;">1963: Beatlemania begins</span>
+                Please Please Me is released and popularizes the Beatles through Europe, they perform for the Royals, their first two albums dominate the charts, and "I Want to Hold Your Hand" tops U.S. charts by year's end </li>
+            <li><span style="color:yellowgreen; margin-right: 5px;">1964</span>
+                The Beatles tour the U.S. to riotous response, and release the film A Hard Day's Night</li>
+            <li><span style="color:blue; margin-right: 5px;">1965, 1966</span>
+                The second film Help! premieres, and the Beatles begin toward a more artistic direction with Rubber Soul, as with Revolver; they decide to stop touring</li>
+            <li><span style="color:indigo; margin-right: 5px;">1967</span>
+                Sgt Pepper's is released, often cited as the first concept album, and displaying innovative recording methods; The Beatles preform for the world's first worldwide TV program; the infamous visit to India and the death of Brian Epstein</li>
+            <li><span style="color:purple; margin-right: 5px;">1968-69</span>
+                Launch of Apple Records label; Album sessions continue in studio, but each Beatle (save Ringo) seems to be diverging artistically and working more and more individually, and feel lost without Brian Epstein; last performance as a band on the roof of Apple Records</li>
+            <li><span style="color:darkslategray; margin-right: 5px;">1970</span>
+                The Beatles are announced to be officially split up</li>
+        
+        </ol>
+        
+    </section>
+</body>
+<hr>
+<footer style="text-align:right">Made by Liza Teleguine: CS1080 Project 1</footer>
+
+</html>
